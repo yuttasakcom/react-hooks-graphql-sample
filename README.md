@@ -1,1 +1,1 @@
-# React Simple Boilerplate
+# React Hooks Graphql Sample

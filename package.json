@@ -1,8 +1,8 @@
 {
-  "name": "react-simple-boilerplate",
+  "name": "react-hooks-graphql-sample",
   "version": "1.0.0",
   "main": "index.js",
-  "repository": "git@github.com:yuttasakcom/react-simple-boilerplate.git",
+  "repository": "git@github.com:yuttasakcom/react-hooks-graphql-sample.git",
   "author": "Yuttasak Pannawat <yuttasakcom@gmail.com>",
   "license": "MIT",
   "scripts": {
