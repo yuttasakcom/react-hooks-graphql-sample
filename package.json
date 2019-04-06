@@ -6,7 +6,9 @@
   "author": "Yuttasak Pannawat <yuttasakcom@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "dev": "webpack-dev-server --mode development --hot",
+    "server": "cd graphql-authen-sample && yarn dev",
+    "client": "webpack-dev-server --mode development --hot",
+    "dev": "concurrently --name \"server,client\" \"yarn server --silent\" \"yarn client --silent\"",
     "build": "webpack --mode production"
   },
   "dependencies": {
@@ -20,6 +22,7 @@
     "@babel/preset-env": "^7.4.2",
     "@babel/preset-react": "^7.0.0",
     "babel-loader": "^8.0.5",
+    "concurrently": "^4.1.0",
     "copy-webpack-plugin": "^5.0.2",
     "html-webpack-plugin": "^3.2.0",
     "webpack": "^4.29.6",

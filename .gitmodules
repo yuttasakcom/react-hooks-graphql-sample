@@ -1,0 +1,3 @@
+[submodule "graphql-authen-sample"]
+	path = graphql-authen-sample
+	url = git@github.com:yuttasakcom/graphql-authen-sample.git
